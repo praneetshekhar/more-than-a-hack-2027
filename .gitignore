@@ -62,3 +62,15 @@ __pycache__/
 venv/
 env/
 .DS_Store
+
+# -- cached arrays and raw/derived match exports -----------------------------------------------
+*.npz
+*.npy
+*.pkl
+*.parquet
+*_atd.txt
+*_atd.xml
+*_homography.csv
+*_smart_tagging.xml
+.cache/
+data/.cache/
